@@ -432,9 +432,9 @@ public class MainView extends BaseView {
 
 			paint.setTextSize(40);
 			paint.setColor(Color.rgb(235, 161, 1));
-			canvas.drawText("积分:" + String.valueOf(sumScore), 30 + play_bt_w,
+			canvas.drawText("Score:" + String.valueOf(sumScore), 30 + play_bt_w,
 					50, paint);
-			canvas.drawText("等级 X " + String.valueOf(speedTime),
+			canvas.drawText("Level X " + String.valueOf(speedTime),
 					screen_width - 160, 50, paint);
 			if (mLifeAmount > 0) {
 				paint.setColor(Color.BLACK);
